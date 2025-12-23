@@ -11,6 +11,11 @@
 
 ## Some features
 
+## Dependencies
+* [dktapps/pmforms](https://github.com/dktapps/pmforms/)
+* [wr3p/TranslationManager](https://github.com/wr3p/TranslationManager/)
+* [CortexPE/Commando](https://github.com/CortexPE/Commando/)
+
 ## TODO 
 - [ ] Rewrite the old trolls.
 - [ ] Add new trolls.
