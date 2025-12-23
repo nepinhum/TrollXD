@@ -1,0 +1,19 @@
+{
+  "name": "hazeld/trollxd",
+  "description": "A troll plugin with an easy UI and advanced features for PocketMine-MP.",
+  "type": "project",
+  "license": "MIT",
+
+  "require": {
+    "pocketmine/pocketmine-mp": "5.39.1",
+    "wr3p/translationmanager": "1.0.0",
+    "cortexpe/commando": "dev-master",
+    "dktapps/pmforms": "dev-master"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "hazeld\\trollxd\\": "src/hazeld/trollxd"
+    }
+  }
+}

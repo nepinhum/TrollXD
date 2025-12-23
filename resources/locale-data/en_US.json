@@ -1,0 +1,31 @@
+{
+  "language": {
+    "en_US": "English (US)"
+  },
+  "errors": {
+    "no_permission": "You do not have permission to perform this action.",
+    "no_trolls": "No trolls are registered."
+  },
+  "trolls": {
+    "blindness": "Blindness",
+    "fakeban": "Fake Ban",
+    "fakeop": "Fake Op",
+    "damage": "Damage",
+    "faketnt": "FakeTNT Explosion",
+    "flip": "Flip.hack xD",
+
+    "messages": {
+      "blindness": "You feel disoriented...",
+      "fakeop": "&7You are now op!"
+    },
+
+    "descriptions": {
+      "blindness": "Temporary blindness.",
+      "fakeop": "Gives (f)op!"
+    }
+  },
+  "menu": {
+    "main_title": "TrollXD",
+    "main_text": "Choose a troll to execute on {{target}}"
+  }
+}

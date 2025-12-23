@@ -1,0 +1,10 @@
+name: TrollXD
+version: 2.0.0
+api: 5.35.0
+author: hazeld
+main: hazeld\trollxd\Loader
+
+permissions:
+  trollxd.command.troll.use:
+    default: false # AS YOU CAN SEE: IT IS NOT 'OP'
+# You must get this permission
