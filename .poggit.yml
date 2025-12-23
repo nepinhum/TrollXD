@@ -10,4 +10,6 @@ projects:
         version: ^2.1.0
       - src: wr3p/TranslationManager/TranslationManager
         version: 1.0.0
+      - src: CortexPE/Commando/Commando
+        version: ^2.1.0
 ...
