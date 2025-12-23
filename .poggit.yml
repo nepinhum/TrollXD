@@ -1,0 +1,15 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/nepinhum/TrollXD
+build-by-default: true
+branches:
+- master
+projects:
+  TrollXD:
+    path: ""
+    libs:
+      - src: Paroxity/Commando/Commando
+        version: ^3.1.0
+      - src: dktapps-pm-pl/pmforms/pmforms
+        version: ^2.1.0
+      - src: wr3p/TranslationManager/TranslationManager
+        version: 1.0.0
+...
