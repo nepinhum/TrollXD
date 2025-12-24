@@ -4,7 +4,13 @@
   },
   "errors": {
     "no_permission": "You do not have permission to perform this action.",
-    "no_trolls": "No trolls are registered."
+    "no_trolls": "No trolls are registered.",
+
+    "command": {
+      "only_game": "/troll command can only be used in the game.",
+      "usage": "&cUsage &7> &f/troll <playerName:string>",
+      "player_not_found": "&cSpecified player couldn't be found!"
+    }
   },
   "trolls": {
     "blindness": "Blindness",
@@ -16,12 +22,16 @@
 
     "messages": {
       "blindness": "You feel disoriented...",
-      "fakeop": "&7You are now op!"
+      "fakeban": "Banned by admin.",
+      "fakeop": "&7You are now op!",
+      "faketnt": "&cYou are going to die!"
     },
 
     "descriptions": {
       "blindness": "Temporary blindness.",
-      "fakeop": "Gives (f)op!"
+      "fakeban": "Fake Ban",
+      "fakeop": "Gives (f)op!",
+      "faketnt": "Fake TNT Explosion"
     }
   },
   "menu": {

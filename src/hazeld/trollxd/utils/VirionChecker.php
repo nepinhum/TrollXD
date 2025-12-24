@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace hazeld\trollxd\utils;
 
-use CortexPE\Commando\PacketHooker;
 use dktapps\pmforms\MenuForm;
 use hazeld\trollxd\Loader;
 use wr3p\i18ntl\TL;
@@ -16,7 +15,6 @@ final class VirionChecker
 		$required = [
 			"TranslationManager" => TL::class,
 			"pmforms" => MenuForm::class,
-			"Commando" => PacketHooker::class
 		];
 
 		foreach ($required as $name => $class) {

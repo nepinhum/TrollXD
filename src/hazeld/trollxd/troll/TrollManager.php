@@ -8,7 +8,9 @@ use dktapps\pmforms\MenuForm;
 use dktapps\pmforms\MenuOption;
 use hazeld\trollxd\Loader;
 use hazeld\trollxd\trolls\BlindnessTroll;
+use hazeld\trollxd\trolls\FakeBanTroll;
 use hazeld\trollxd\trolls\FakeOpTroll;
+use hazeld\trollxd\trolls\FakeTntTroll;
 use hazeld\trollxd\utils\Translator;
 use pocketmine\player\Player;
 use pocketmine\utils\SingletonTrait;
@@ -30,7 +32,9 @@ final class TrollManager
 	public function registerTrolls(): void
 	{
 		$this->registry->register(new BlindnessTroll());
+		$this->registry->register(new FakeBanTroll());
 		$this->registry->register(new FakeOpTroll());
+		$this->registry->register(new FakeTntTroll());
 	}
 
 	public function openTrollMenu(Player $player, Player $target): void
